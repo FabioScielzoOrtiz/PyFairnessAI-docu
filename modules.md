@@ -2,7 +2,9 @@
 
 `PyFairnessAI` has diverse functionalities grouped in the following modules::
 
-- `metrics`: a set of fairness metrics which can be used to asses the fairness degree of classification algorithms. Most of them are based on `aif360` developments.
+---
+
+`metrics`: a set of fairness metrics which can be used to asses the fairness degree of classification algorithms. Most of them are based on `aif360` developments.
 
    - `statistical_parity_difference`
    - `abs_statistical_parity_difference`
@@ -20,13 +22,13 @@
    - `true_negative_rate_ratio`
    - `positive_predicted_value_difference`
    - `positive_predicted_value_abs_difference`
-   
+
    - `positive_predicted_value_ratio`
 
 
   All the metrics are functions with the following arguments: 
 
-  - `y_true`: array with the true values of the response (target) variable.
+   - `y_true`: array with the true values of the response (target) variable.
 
   - `y_pred`: array with the predicted values of the response (target) variable.
 
@@ -36,14 +38,15 @@
 
   - `pos_label`: label of the positive (favorable) group in the response variable.
 
-  
-- `preprocessing`: a set of fairness pre-processors.
+---
+
+`preprocessing`: a set of fairness pre-processors.
 
   - `ReweighingMetaEstimator`: a `scikit-learn` like meta estimator, which applies reweighing fairness pre-processing to the input data before fitting the provided `scikit-learn` estimator.
 
+---
 
-
-- `inprocessing`: a set of fairness in-processors.
+`inprocessing`: a set of fairness in-processors.
 
   - `AdversarialDebiasingEstimator`: a `scikit-learn` like estimator, designed with fairness principles under the hood.
 
@@ -51,13 +54,15 @@
 
   - `GridSearchReductionMetaEstimator`: a  `scikit-learn` like meta estimator, which applies grid search reduction as fairness in-processing over a provided `scikit-learn` estimator.
 
+---
 
-- `postprocessing`: a set of fairness pre-processors.
+`postprocessing`: a set of fairness pre-processors.
 
    - `PostProcessingMetaEstimator`: a  `scikit-learn` like meta estimator, which applies `CalibratedEqualizedOdds` or `RejectOptionClassifier` as fairness post-processing over the output of a provided `scikit-learn` estimator.
 
+---
 
-- `model_selection`: a set of model selection algorithms based on both fairness and predictive power principles.
+`model_selection`: a set of model selection algorithms based on both fairness and predictive power principles.
 
    - `cross_val_score_fairness`: a `scikit-learn` like cross-validation score based on fairness metrics.
 
