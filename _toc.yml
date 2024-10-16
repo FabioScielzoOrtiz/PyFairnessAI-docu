@@ -1,0 +1,11 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+format: jb-book
+root: intro
+chapters:
+- file: modules
+- file: advantages
+- file: demo_fairness_workflow
+- file: demo_fairness_workflow_multisens_OR
+- file: demo_fairness_workflow_multisens_AND
