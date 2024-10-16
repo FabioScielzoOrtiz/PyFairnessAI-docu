@@ -22,6 +22,7 @@
    - `positive_predicted_value_abs_difference`
    - `positive_predicted_value_ratio`
 
+
   All the metrics are functions with the following arguments: 
 
   - `y_true`: array with the true values of the response (target) variable.
@@ -48,6 +49,7 @@
   - `ExponentiatedGradientReductionMetaEstimator`: a `scikit-learn` like meta estimator, which applies exponential gradient reduction as fairness in-processing over a provided `scikit-learn` estimator.
 
   - `GridSearchReductionMetaEstimator`: a  `scikit-learn` like meta estimator, which applies grid search reduction as fairness in-processing over a provided `scikit-learn` estimator.
+
 
 - `postprocessing`: a set of fairness pre-processors.
 
