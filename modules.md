@@ -1,6 +1,6 @@
 # Modules
 
-`PyFairnessAI` has diverse functionalities grouped in the following modules::
+`PyFairnessAI` has diverse functionalities grouped in the following modules:
 
 ---
 
