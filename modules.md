@@ -1,4 +1,4 @@
-# Modules of `PyFairnessAI`
+# Modules
 
 `PyFairnessAI` has diverse functionalities grouped in the following modules::
 

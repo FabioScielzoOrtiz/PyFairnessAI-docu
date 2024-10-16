@@ -1,4 +1,4 @@
-# Advantages of `PyFairnessAI`
+# Advantages
 
 The main advantages of `PyFairnessAI` with respect to other similar frameworks, like `aif360`, are the following:
 
