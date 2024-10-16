@@ -3,7 +3,7 @@
 
 title: PyFairnessAI 
 author: Fabio Scielzo Ortiz
-logo: logo.png
+logo: PyFairnessAI_logo.png
 
 # Force re-execution of notebooks on each build.
 # See https://jupyterbook.org/content/execute.html
