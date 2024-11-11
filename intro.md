@@ -6,7 +6,7 @@ The framework includes diverse fairness metrics and processors, as well as model
 
 This package is mainly inspired in `aif360` and has been designed to work with `scikit-learn`.
 
-(*) Machine Learning Workflow refers to the process of finding the best model for a certain Machine Learning problem and data.
+(*) Machine Learning Workflow refers to the process of finding the best model for a certain Machine Learning problem, given some data.
 
 ```{tableofcontents}
 ```
